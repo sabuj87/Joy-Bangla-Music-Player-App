@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.AllpoemListActivity">
+
+     <android.support.v7.widget.Toolbar
+        android:id="@+id/favouritelistToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appColorPrimary4"
+        app:titleTextColor="@color/appColorPrimary1"
+        app:title="প্রিয় কবিতা"
+        app:titleTextAppearance="@style/toolbarFont"
+        app:theme="@style/ToolbarTheme" >
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:background="@drawable/f5"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/kalpurush"
+            android:textAlignment="center"
+            android:id="@+id/noPoem"
+            android:visibility="gone"
+            android:textColor="@color/appColorPrimary4"
+            android:text="কোনো প্রিয় কবিতা যুক্ত করা হইনি।"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ListView
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:id="@+id/favouriteListLVId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </ListView>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash_shape"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".activity.intro.SplashActivity">
+
+
+    <TextView
+
+        android:layout_marginLeft="30sp"
+        android:textColor="@color/appColorPrimary1"
+        android:fontFamily="@font/kalpurush_bangla"
+        android:textSize="70sp"
+        android:text="জয় বাংলা"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/appColorPrimary1"
+        android:textSize="23sp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/kalpurush_bangla"
+        android:text="মোনায়েম সরকার-এর কবিতা"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_marginBottom="100dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_bb_final"></ImageView>
+
+    <ProgressBar
+        android:id="@+id/progressid"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="130dp"
+        android:layout_height="5dp"
+        android:layout_margin="10dp"
+        android:progressBackgroundTint="#09590d"
+        android:progressTint="@color/appColorPrimary1" />
+
+</LinearLayout>

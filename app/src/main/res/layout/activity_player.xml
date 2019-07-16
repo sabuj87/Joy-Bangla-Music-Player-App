@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/f5"
+    android:padding="10dp"
+    android:id="@+id/PlayerBgId"
+    tools:context=".activity.PlayerActivity">
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/PlayerToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/appColorPrimary4"
+                android:textSize="20sp"
+                android:fontFamily="@font/kalpurush"
+                android:text="কবিতা প্লেয়ার"
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:id="@+id/toolIvId"
+                android:tint="@color/appColorPrimary4"
+                android:src="@drawable/ic_subtitles"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+
+                android:id="@+id/PlayerImageId"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:src="@drawable/ic_joybangladisk"
+                app:civ_border_color="@color/appColorPrimary4"
+                app:civ_shadow="true"
+                app:civ_shadow_radius="0" />
+
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/appColorPrimary6"
+            android:fontFamily="@font/kalpurush_bangla"
+            android:id="@+id/poemNameid"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="19sp" />
+
+        <com.doel.joybngla.extra.SubtitleView
+            android:layout_weight="1"
+            android:textColor="@color/appColorPrimary5"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/subs_box"/>
+
+
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/player_control"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:layout_width="?attr/actionBarSize"
+                        android:layout_height="?attr/actionBarSize"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_player_repeat"
+                        android:tint="@color/appColorPrimary4" />
+
+                    <SeekBar
+                        android:progressTint="@color/appColorPrimary1"
+                        android:id="@+id/PlayerSeekbarId"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+                        android:foregroundTint="@color/appColorPrimary1"
+                        android:thumbTint="@color/appColorPrimary4" />
+
+                    <ImageButton
+                        android:layout_width="?attr/actionBarSize"
+                        android:layout_height="?attr/actionBarSize"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_player_shuffle"
+                        android:tint="@color/appColorPrimary4" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:id="@+id/TvPoemCurrentDurationId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="0.00"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                        android:textColor="@color/appColorPrimary4" />
+
+                    <ImageButton
+                        android:id="@+id/PlayerPreBtnId"
+                        android:layout_width="0dp"
+                        android:layout_height="?attr/actionBarSize"
+                        android:layout_weight="1"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_player_previous"
+                        android:tint="@color/appColorPrimary4" />
+
+                    <ImageButton
+                        android:layout_gravity="center"
+                        android:id="@+id/PlayerPLayPauseBtnId"
+                        android:layout_width="?attr/actionBarSize"
+                        android:layout_height="?attr/actionBarSize"
+                        android:tint="@color/appColorPrimary1"
+                        android:src="@drawable/ic_palyer_pause"
+                        android:background="@drawable/play_button_shape"
+                        />
+
+                    <ImageButton
+                        android:id="@+id/PlayerNextBtnid"
+                        android:layout_width="0dp"
+                        android:layout_height="?attr/actionBarSize"
+                        android:layout_weight="1"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_player_next"
+                        android:tint="@color/appColorPrimary4" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:id="@+id/TvTotalPoemDurationId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="0.00"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                        android:textColor="@color/appColorPrimary4" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

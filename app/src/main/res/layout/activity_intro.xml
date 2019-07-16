@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f5"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".activity.intro.IntroActivity">
+
+    <ImageView
+
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_doel_logo" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/introViewPagerID"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background_shape_2"
+        android:padding="10dp">
+
+    </android.support.v4.view.ViewPager>
+
+    <Button
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/introStartButtonID"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/kalpurush_bangla"
+        android:text="শুরু করুন"
+        android:textColor="@color/appColorPrimary1"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+
+    <LinearLayout
+        android:weightSum="6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.TabLayout
+            android:layout_weight="2"
+            android:layout_gravity="start"
+            android:id="@+id/introTabLayoutID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:tabBackground="@drawable/pager_indicator_selector"
+            app:tabIndicatorColor="#FFFFFF">
+
+
+        </android.support.design.widget.TabLayout>
+
+        <TextView
+            android:fontFamily="@font/kalpurush_bangla"
+            android:layout_gravity="center"
+            android:id="@+id/introNextTextViewID"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_arrow_forward"
+            android:drawableTint="@color/appColorPrimary4"
+            android:gravity="end"
+            android:textAlignment="gravity"
+            android:text=" পরবর্তী "
+            android:textStyle="bold"
+            android:textColor="@color/appColorPrimary4"
+            android:textSize="17sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

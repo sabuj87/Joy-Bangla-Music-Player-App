@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.home.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/libraryToolbar"
+        app:title="কবিতা লাইব্রেরী"
+        app:titleTextColor="@color/appColorPrimary1"
+        android:background="@color/appColorPrimary4"
+        app:titleTextAppearance="@style/toolbarFont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/ToolbarTheme"
+        >
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:background="@drawable/f4"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <android.support.v7.widget.CardView
+
+                android:clickable="true"
+                app:cardCornerRadius="4dp"
+                android:id="@+id/allPoemList"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:tint="@color/appColorPrimary1"
+                        android:padding="15dp"
+                        android:src="@drawable/ic_alllist"
+                        android:background="@drawable/card_shape"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@color/appColorPrimary4"
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp">
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/appColorPrimary2"
+                        android:textSize="17sp"
+                        android:fontFamily="@font/kalpurush_bangla"
+                        android:text="সব কবিতা"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                app:cardCornerRadius="4dp"
+                android:id="@+id/favouriteList"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/card_shape"
+                        android:padding="15dp"
+                        android:src="@drawable/ic_favourite_list"
+                        android:tint="@color/appColorPrimary1" />
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@color/appColorPrimary4"
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp">
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/appColorPrimary2"
+                        android:textSize="17sp"
+                        android:fontFamily="@font/kalpurush_bangla"
+                        android:text="প্রিয় কবিতা"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <android.support.v7.widget.CardView
+                app:cardCornerRadius="4dp"
+                android:id="@+id/lastPlayedList"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/card_shape"
+                        android:padding="15dp"
+                        android:src="@drawable/ic_play"
+                        android:tint="@color/appColorPrimary1" />
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@color/appColorPrimary4"
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp">
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/appColorPrimary2"
+                        android:textSize="17sp"
+                        android:fontFamily="@font/kalpurush_bangla"
+                        android:text="সর্বশেষ আবৃত্তি"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                app:cardCornerRadius="4dp"
+                android:id="@+id/playerId"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/card_shape"
+                        android:padding="15dp"
+                        android:src="@drawable/ic_player"
+                        android:tint="@color/appColorPrimary1" />
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@color/appColorPrimary4"
+                        android:layout_width="match_parent"
+                        android:layout_height=".5dp">
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/appColorPrimary2"
+                        android:textSize="17sp"
+                        android:fontFamily="@font/kalpurush_bangla"
+                        android:text="কবিতা প্লেয়ার"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

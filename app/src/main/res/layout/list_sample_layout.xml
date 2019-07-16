@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="3dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:weightSum="6"
+        android:background="@drawable/background_shape_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="5"
+            android:id="@+id/poemNameTvId"
+            android:layout_width="0dp"
+            android:layout_height="63dp"
+
+            android:drawableLeft="@drawable/ic_music_note"
+            android:drawablePadding="-20dp"
+            android:drawableTint="@color/appColorPrimary4"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:text="জয় বাংলা"
+            android:textAppearance="@style/toolbarFont"
+            android:textColor="@color/appColorPrimary7"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:id="@+id/favouriteIvId"
+            android:tint="@color/appColorPrimary4"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_favorite_border"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

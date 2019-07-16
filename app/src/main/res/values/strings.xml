@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">জয় বাংলা</string>
+
+    <string name="intro_title_1">জয় বাংলা</string>
+    <string name="intro_title_2">জয় বাংলা</string>
+    <string name="intro_title_3">উৎসর্গ</string>
+
+    <string name="intro_details_1">মোনায়েম সরকার-এর কবিতা</string>
+    <string name="intro_details_2">প্রকাশক : দোয়েল\n
+                                   ৬৩/১ সিদ্ধেশ্বরি সার্কুলার রোড,ঢাকা,১২১৭\n
+                                   যোগাযোগ : ০১৯১১৬৭৮৯১০,৯৩৩৫৭১১\n
+                                   প্রথম প্রকাশ : একুশে বইমেলা,২০১৮ ইং\n</string>
+
+    <string name="intro_details_3">জাতির জনক শেখ মুজিবুর রহমান\n
+                                                     এঁর\n
+                                                স্মৃতির প্রতি\n</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="poem_name">
+        <item>জয় বাংলা</item>
+        <item>দানবেরা ধ্বংস হোক</item>
+        <item>দুর্জয় সন্তান</item>
+        <item>এক খোকা প্রিয় নাম</item>
+        <item>আমাদের স্লোগান</item>
+        <item>মুক্তিগীতি</item>
+        <item>উদ্বেগ</item>
+        <item>হে বিবেক জেগে ওঠো</item>
+        <item>একাত্তরে মুক্তিস্নান</item>
+        <item>গেরিলার স্বগতোক্তি</item>
+        <item>দুর্মর বাংলাদেশ</item>
+
+
+    </string-array>
+    <string name="writter"> মোনায়েম সরকার রাজনৈতিক,গবেষক ও লেখক হিসাবে সুপরিচিত। তাঁর লেখা
+                            অর্ধশত বই এখন পাঠকের হাতে। বাংলা একাডেমি কতৃক ২ খন্ড বঙ্গবন্ধুর জীবনীগ্রন্থ
+                            সম্পাকদনা করেছেন তিনি। বাংলাদেশ ফাউন্ডেশন ফর ডেভলপমেন্ট রিসার্চ এর বর্তমান
+                            মহাপরিচালক তিনি।মুক্তিযুদ্ধসহ এদেশের বিভিন্ন গনতান্ত্রিক আন্দোলনে তাঁর ভূমিকা
+                            স্মরণযোগ্য।বঙ্গবন্ধু হত্যা পরবর্তীকালে মুক্তিযুদ্ধের পক্ষের শক্তিকে পুনর্গঠন করার জন্য
+                            তিনি ছিলেন বলিষ্ঠ হস্ত।বিভিন্ন সংগঠনের স্বীকৃতি ও বাংলা একাডেমি ফেলোশিপ দিয়ে
+                            তাকে সম্মানিত করেছে।
+    </string>
+
+
+</resources>
