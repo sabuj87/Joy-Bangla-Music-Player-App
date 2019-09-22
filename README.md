@@ -28,7 +28,8 @@ which is written by “Monayem Sorkar”.
 
 [book]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Book.jpg
 [intro]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Intro%20slide.png
+[home]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Hone.png
 
-|     Book      |     Intro slide       | Cool  |
-| ------------- |:-------------:| -----:|
-|![alt text][book]  | ![alt text][intro] | $1600 |
+|     Book      |     Intro slide       |  Home  |
+| ------------- |:-------------:        | -----:|
+|![alt text][book]  | ![alt text][intro] | ![alt text][home]  |
