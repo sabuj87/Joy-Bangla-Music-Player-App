@@ -26,4 +26,4 @@ which is written by “Monayem Sorkar”.
 
 |     Book      |     Are       | Cool  |
 | ------------- |:-------------:| -----:|
-|   ![alt text](http://www.mediafire.com/view/q0s9xhb71j3wvot/Book.jpg/file "Logo Title Text 1")   | right-aligned | $1600 |
+|   ![alt text](http://www.mediafire.com/view/i8m7uhbhhhqyb04/about_writter.png/file)   | right-aligned | $1600 |
