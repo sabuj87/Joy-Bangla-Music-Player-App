@@ -24,6 +24,10 @@ which is written by “Monayem Sorkar”.
 * Favourite button added on list of all poem.
 * Last played with SharedPreference.
 
+## Screen Shot
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
 |     Book      |     Are       | Cool  |
 | ------------- |:-------------:| -----:|
 |   ![alt text](https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Book.jpg)   | right-aligned | $1600 |
