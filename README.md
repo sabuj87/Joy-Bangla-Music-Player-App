@@ -23,3 +23,7 @@ which is written by “Monayem Sorkar”.
 * Also included subtitle switch button on player activity.
 * Favourite button added on list of all poem.
 * Last played with SharedPreference.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
