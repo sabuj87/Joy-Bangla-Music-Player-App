@@ -26,4 +26,4 @@ which is written by “Monayem Sorkar”.
 
 |     Book      |     Are       | Cool  |
 | ------------- |:-------------:| -----:|
-|   ![alt text](http://www.mediafire.com/view/i8m7uhbhhhqyb04/about_writter.png/file)   | right-aligned | $1600 |
+|   ![alt text](https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Book.jpg)   | right-aligned | $1600 |
