@@ -46,7 +46,7 @@ which is written by “Monayem Sorkar”.
 
 [Download APK](http://www.mediafire.com/file/mlimk0cekd76ggi/Joy_Bangla.apk/file)
 
-## ask any question...
+## Ask any question...
 * Email : sabujaeed@gmail.com
 * [Download APK](http://www.mediafire.com/file/mlimk0cekd76ggi/Joy_Bangla.apk/file)
 * [Facebook](https://www.facebook.com/saeed.sabuj)
