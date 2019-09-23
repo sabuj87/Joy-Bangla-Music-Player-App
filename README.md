@@ -36,7 +36,7 @@ which is written by “Monayem Sorkar”.
 | ------------- |:-------------: |:------:|:---------------------:|
 |![alt text][book]  | ![alt text][splash] | ![alt text][intro]  | ![alt text][home]|
 
-|     Book      |    Splash screen |  Intro slide  | Home  |
+|     All poemlist |    Splash screen |  Intro slide  | Home  |
 | ------------- |:-------------: |:------:|:---------------------:|
-|![alt text][book]  | ![alt text][splash] | ![alt text][intro]  | ![alt text][home]|
+|![alt text][allps]  | ![alt text][splash] | ![alt text][intro]  | ![alt text][home]|
 
