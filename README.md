@@ -31,12 +31,16 @@ which is written by “Monayem Sorkar”.
 [intro]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Intro%20slide.png
 [home]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Hone.png
 [allps]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/all%20poemlist.png
+[fps]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/favouriteList.png
+[player]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/player.png
+[writter]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/about%20writter.png
+
 
 |     Book      |    Splash screen |  Intro slide  | Home  |
 | ------------- |:-------------: |:------:|:---------------------:|
 |![alt text][book]  | ![alt text][splash] | ![alt text][intro]  | ![alt text][home]|
 
-|     All poemlist |    Splash screen |  Intro slide  | Home  |
+|     All poemlist |   Favourite list | Poem player  | about witter |
 | ------------- |:-------------: |:------:|:---------------------:|
-|![alt text][allps]  | ![alt text][splash] | ![alt text][intro]  | ![alt text][home]|
+|![alt text][allps]  | ![alt text][fps] | ![alt text][player]  | ![alt text][writter]|
 
