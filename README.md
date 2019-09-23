@@ -31,6 +31,6 @@ which is written by “Monayem Sorkar”.
 [intro]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Intro%20slide.png
 [home]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Hone.png
 
-|     Book      |    Splash screen |  Intro slide  |
-| ------------- |:-------------: | ------:|
-|![alt text][book]  | ![alt text][splash] | ![alt text][intro]  |
+|     Book      |    Splash screen |  Intro slide  | Home  |
+| ------------- |:-------------: |:------:|:---------------------:|
+|![alt text][book]  | ![alt text][splash] | ![alt text][intro]  | ![alt text][home]|
