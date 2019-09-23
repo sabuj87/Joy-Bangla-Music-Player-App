@@ -27,9 +27,10 @@ which is written by “Monayem Sorkar”.
 ## Screen Shot
 
 [book]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Book.jpg
-[intro]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Intro%20slide.png
+[splash]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Splash%20Screen.png
+[home]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Hone.png
 [home]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Hone.png
 
-|     Book      |    Intro slide |  Home  |
+|     Book      |    Splash screen |  Home  |
 | ------------- |:-------------: | ------:|
-|![alt text][book]  | ![alt text][intro] | ![alt text][home]  |
+|![alt text][book]  | ![alt text][splash] | ![alt text][home]  |
