@@ -44,3 +44,5 @@ which is written by “Monayem Sorkar”.
 | ------------- |:-------------: |:------:|:---------------------:|
 |![alt text][allps]  | ![alt text][fps] | ![alt text][player]  | ![alt text][writter]|
 
+[Download APK](http://www.mediafire.com/file/mlimk0cekd76ggi/Joy_Bangla.apk/file)
+
