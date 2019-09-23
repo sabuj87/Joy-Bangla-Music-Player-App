@@ -28,9 +28,9 @@ which is written by “Monayem Sorkar”.
 
 [book]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Book.jpg
 [splash]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Splash%20Screen.png
-[home]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Hone.png
+[intro]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Intro%20slide.png
 [home]: https://github.com/sabuj87/raw/blob/master/JoyBangla%20(Scrn%20sot)/Hone.png
 
-|     Book      |    Splash screen |  Home  |
+|     Book      |    Splash screen |  Intro slide  |
 | ------------- |:-------------: | ------:|
-|![alt text][book]  | ![alt text][splash] | ![alt text][home]  |
+|![alt text][book]  | ![alt text][splash] | ![alt text][intro]  |
